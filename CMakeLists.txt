@@ -3,4 +3,4 @@ project(main)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(main main.cpp Data.h Data.cpp SortFunctions.cpp SortFunctions.h)
+add_executable(main main.cpp Data.h Data.cpp)
