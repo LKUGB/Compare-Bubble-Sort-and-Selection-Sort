@@ -240,8 +240,6 @@ int main(){
         string marketType = substring;
         //read yearRecorded
         getline(food, substring, ',');
-        cout << substring << endl;
-        flush(cout);
         int yearRecorded = stoi(substring);
         //read pricePaid;
         getline(food, substring, ',');
@@ -262,7 +260,7 @@ int main(){
         //insert the data object into dataV vector
         dataV.push_back(obj);
 }
-    //FIXME: HOW TO SET N FOR THE SIZE OF THE DATA VECTOR
+
 
     //close the file
     inFS.close();
