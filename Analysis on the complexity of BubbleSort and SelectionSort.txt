@@ -1,0 +1,7 @@
+The complexity of the worst case scenario for bubbleSort is O(n) and the best case scenario for it is O(n^2). The worst case is O(n^2) is because that it has maximum of ((n-1)+1)(n-1) / 2 swaps, which in "big O" 
+notation should be O(n^2). The best case scenario for it is O(n) because if a sorted list is inserted, the swapped will remain to be false, therefore, only one iteration will be executed, thus O(n). From
+the graph, we may see that the time needed for bubbleSort to sort the sorted vectors is lesser than that of sorting the unsorted vectors. 
+
+The complexity of the worst case scenario for selectionSort is O(n^2)  and the best case scenario for it is also O(n^2). The worst case scenario and the best case scenario all have complexity of O(n^2)
+because selectionSort disregards the vector that is passed in. The inner loop go through the unsorted part of the array in every iteration and find the minimum. The outer loop on the other hand will
+execute N times, which is the size of the vector. From the graphs, we may see that the CPU time needed for selectionSort to sort the sorted vectors and unsorted vectors are nearly the same.
